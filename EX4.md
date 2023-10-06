@@ -17,12 +17,12 @@ create table employee_1(empid number,empname varchar(10),dept varchar(10),salary
 ```
 create or replace procedure insert_employee_data as
 begin
-insert into employee_1(empid,empname,dept,salary)
-values(1,'John','HR',50000);
-insert into employee_1(empid,empname,dept,salary)
-values(2,'Bob','Finance',55000);
-insert into employee_1(empid,empname,dept,salary)
-values(3,'Joe','IT',60000);
+insert into employee1(empid,empname,dept,salary)
+values(1,'LEANN'','HR',50000);
+insert into employee1(empid,empname,dept,salary)
+values(2,'YOGI','Finance',55000);
+insert into employee1(empid,empname,dept,salary)
+values(3,'AUGUS','IT',60000);
 commit;
 end;
 /
